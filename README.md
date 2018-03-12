@@ -1,33 +1,33 @@
-bitcoind-rpc.js
+paccoind-rpc.js
 ===============
 
-[![NPM Package](https://img.shields.io/npm/v/bitcoind-rpc.svg?style=flat-square)](https://www.npmjs.org/package/bitcoind-rpc)
-[![Build Status](https://img.shields.io/travis/bitpay/bitcoind-rpc.svg?branch=master&style=flat-square)](https://travis-ci.org/bitpay/bitcoind-rpc)
-[![Coverage Status](https://img.shields.io/coveralls/bitpay/bitcoind-rpc.svg?style=flat-square)](https://coveralls.io/r/bitpay/bitcoind-rpc?branch=master)
+<!-- [![NPM Package](https://img.shields.io/npm/v/bitcoind-rpc.svg?style=flat-square)](https://www.npmjs.org/package/bitcoind-rpc) -->
+[![Build Status](https://img.shields.io/travis/PACCommunity/paccoind-rpc.svg?branch=master&style=flat-square)](https://travis-ci.org/PACCommunity/paccoind-rpc)
+<!--[![Coverage Status](https://img.shields.io/coveralls/bitpay/bitcoind-rpc.svg?style=flat-square)](https://coveralls.io/r/bitpay/bitcoind-rpc?branch=master) -->
 
-A client library to connect to Bitcoin Core RPC in JavaScript.
+A client library to connect to PAC Core RPC in JavaScript.
 
 ## Get Started
 
-bitcoind-rpc.js runs on [node](http://nodejs.org/), and can be installed via [npm](https://npmjs.org/):
+paccoind-rpc.js runs on [node](http://nodejs.org/), and can be installed via [npm](https://npmjs.org/):
 
 ```bash
-npm install bitcoind-rpc
+npm install paccoind-rpc
 ```
 
 ## Examples
 
 ```javascript
 var run = function() {
-  var bitcore = require('bitcore');
-  var RpcClient = require('bitcoind-rpc');
+  var bitcore = require('bitcore-pac');
+  var RpcClient = require('paccoind-rpc');
 
   var config = {
     protocol: 'http',
     user: 'user',
     pass: 'pass',
     host: '127.0.0.1',
-    port: '18332',
+    port: '17111',
   };
 
   var rpc = new RpcClient(config);
