@@ -1,6 +1,6 @@
 {
   "name": "paccoind-rpc",
-  "description": "Bitcoin Client Library to connect to Bitcoin Core via RPC",
+  "description": "$PAC Client Library to connect to PAC Core via RPC",
   "version": "0.7.1",
   "author": {
     "name": "Stephen Pair",
@@ -25,6 +25,8 @@
     }
   ],
   "keywords": [
+    "pac",
+    "paccoin",
     "bitcoin",
     "rpc"
   ],
